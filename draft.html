@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Saksham Gupta</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+
+<table style="width:1000" align="center"><tr>
+<td width="250">
+<img src="image/saksham.jpeg" width="230" alt="" hspace="0" vspace="0" />
+</td>
+<td>
+<h1> Saksham Gupta</h1>
+Computer Science and Engineering Department
+<br/>Delhi Technological University
+<br>Shahbad Daulatpur,
+Main Bawana Road, 
+Delhi-110042.
+India &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>
+<p></p>
+
+E-mail: sakshamgupta_2k14 at dtu dot ac dot in<br>
+Phone: +91-9650502482<br>
+</td></tr></table>
+
+
+<p></p>
+
+<hr size="1">
+
+<p align="justify">I am a third year B.Tech. student at <a href="https://www.dtu.ac.in/">Delhi Technological University</a>.My advisor is <a href="https://www.iiitd.edu.in/~chetan/"> Dr. Chetan Arora</a>. My thesis is on "Egocentric Video Analysis". My research areas are Computer Vision, Robotics, Graphical Models and Deep Learning. I did my B.Tech. from <a href="http://www.nitrr.ac.in/">NIT, Raipur</a> in 2014. I am also working with <a href="http://robotics.iiitd.edu.in/coral/?page_id=20"> Dr. P.B. Sujit</a> on Swarath project. My work involves developing vision module for autonomous e-rickshaw, a last mile urban connectivity vehicle.
+ <br>
+</p>
+</p><p>
+
+</p>
+Here is my <a href="./other/saksham cv 5.pdf">CV</a>.
+My <a href="https://github.com/sakshamgupta006"> Github</a><a href="https://github.com/guptasaksham"> Linkedin</a> <a href="https://github.com/sakshamgupta006"> Quora</a> profile.
+</p>
+
+<hr size="1">
+
+
+<font size="5"> <b>Projects</b>
+<p align="justify"><font size="3">
+<b>Elephant Accident Prevention</b> <br/>
+National parks and wildlife reserves in Western and Northern Indian states have railways which cross prominent elephant corridors. Sometimes elephants are ran over by trains. This is a huge issue and can't be managed by forrest guards due to lack of resources. We are trying to build a low cost early warning system to alert train drivers or station masters when elephants are near railway lines. Cameras are quite expensive when installed on a large scale and are dependent on limited visual information. Proximity sensors give false alarm due to their sensitivity towards small disturbances, which can be caused by any animal, elephant or not. We use seismic sensors as they can detect small seismic activities and a herd of elephants makes enough disturbance to trigger a seismic sensor. The challenge lies in classifying seismic activities as caused by elephants or caused by a train. We are using time series analysis to understand seismic data and classify them. This project is funded by <a href="http://www.worldwildlife.org/">World Wildlife Fund(WWF)</a> and <a href="https://www.wii.gov.in/">Wildlife Institute of India(WII)</a>.
+</font></p>
+
+<p align="justify"><font size="3">
+<b>Collaborative Filtering with Label Consistent Restricted Boltzman Machine</b>[<a href="https://github.com/sagarverma/LC-CFRBM">Code</a>][<a href="http://grouplens.org/datasets/movielens/">Dataset</a>]<br/>
+The possibility of employing restricted Boltzmann machine (RBM) for collaborative filtering has been known for about a decade. However there has been hardly any work on this topic since. This work revisits the application of RBM in recommender systems. RBM based collaborative filtering only used the rating information; this is an unsupervised architecture. This work adds supervision by exploiting user demographic information and item metadata. A network is learnt from the representation layer to the labels (metadata). The proposed label consistent RBM formulation improves significantly on the existing RBM based approach and yield results at par with the state-of-the-art latent factor based models. 
+</font></p>
+
+<p align="justify"><font size="3">
+<b>Real Time Image Segmentation in Drone Imagery</b><br/>
+Developed a real time image segmentation for DJI phantom quadrotor. UAV is able to do scence segmentation on three different types of scence, when UAV is inside building, outside building with camera plane perpendicular to UAV and when camera plane is parallel to UAV. Pretrained SegNet model on CamVid road dataset and SUN RGB-D dataset have been used for first two scenarios, respectively. For third scenario network is trained from scratch on images taken by DJI phantom. For the same manual annoation has been done. Dataset and codes will soon be released.  
+</font></p>
+
+
+<p align="justify"><font size="3">
+<b>Road Quality and Blockage Prediction Service</b><br/>
+Current map service like google map only provide real time traffic prediction. This project aims at providing information like road type, road quality, blockades, etc. We use computer vision and deep learning to extract those information from videos taken by a car dashcam. Goal is to provide a real time service for governemnt organization, law enforcement and public. Normal end user can use it to find suitable routes to their destinations. Users like government can use it to track road quality, real time traffic monitoring and analyse traffic flow.
+</font></p>
+
+<p  align="justify"><font size="3">
+<b>Floating Sensor Network</b>[<a href="https://www.dropbox.com/sh/iru1g0gg0nkg0xo/AAAkbCSnXWjo1j4PSckItTwza?dl=0">Code</a>]<br/>
+We are implementing a system to monitor the pollution level in waters of Indian rivers. Current method involves collecting pollution data at fixed intervals and only at fixed locations. We have designed a floating sensor unit that consists of pH meter, temperature sensor, turbidity meter, conductivity meter and ORP(Oxidation-Reduction Potential) meter to collect pollution related information. We use a network of such sensors and collect their data with geolocation using GPS and transmit it via SMS/Data pack to a central server. The collected data will be used to continously monitor pollution level and draw useful information about the pollutants and the location where they enter the river. We will also release a heat map showing each sensor's value on a map.
+</font></p>
+
+<p  align="justify"><font size="3">
+<b>Multi Modal Search</b>[<a href ="https://github.com/sagarverma/MultiModalSearch">Code</a>]<br/> 
+We focus on the problem of searching when user has limited information about the topic but can represent the query through different modes, such as image, text and speech. Our system uses Convolutional Neural Network to understand an image and give a description along with the class to which the image belongs. For the text part, we use Long Short Term Memory network to expand a query. If speech is present, we simply convert it to text and apply the LSTM part to it. The query can comprise of any combination of three modes. We merge the output of LSTM and CNN to enrich the querry and then search it in the elasticsearch database to get relevant information. Our dataset contains images, speech and text linked together from wikipedia.
+</font></p>
+
+<p  align="justify"><font size="3">
+<b>UAV Scheduling Algorithm for Multiple Target Tracking</b>[<a href="https://www.dropbox.com/sh/coimkhdg7m4jk7x/AADG_AUeOQUjvd8ObFaAuVh-a?dl=0">Code</a>]<br/>
+We focus on the problem of tagging multiple vehicles using multiple UAVs in a resource constrained environment. We want to minimize the total tagging time and the number of UAVs.  Ideal solution involves creating dynamic graph and running a greedy travelling salesman problem. For real world scenario, we consider arrival rate and do graph partitioning based on the arrival rates to fairly allocate tagging task among multiple UAVs.
+</font></p>
+
+<p  align="justify"><font size="3">
+<b>Scholar's OWL</b>[<a href="https://www.dropbox.com/sh/e9udum81xfwotln/AACW27QUMW0GNriNplt6acXia?dl=0">Code and Dataset</a>]<br/>
+We have developed a semantic search system for searching scholarly articles. Current methods involve full text search and have high recall but low precision. Existing search engines like google scholar, IEEE explorer, researchgate don't use semantic information like content of paper, authors, publishers, topic, sub topic, etc. We believe that when we link papers according to topic, subtopic, authors and other relevant information we can search more accurately. For this we use the techniques of semantic web and represent articles and related information in Web Ontology Language(OWL). Then we use SPARQL to query the OWL graph. We have also used elasticsearch to implement full text searching. We create a heirarchical structure of topics, subtopics and papers so that users can easily navigate to related papers under similar topics. For this we have used heirarchical clustering and applied topic modelling over the clusters obtained. 
+</font></p>
+
+<p  align="justify"><font size="3">
+<b>State Estimation using SLAM in Swarm Robotics</b><br/>
+We have solved the problem of efficient map construction of an indoor environment using swarm robots. For this we have used SLAM and triangulation method to know locations of each bot with respect to every other bot. We have used Kalman Filter to remove uncertainities in the state calulation. 
+</font></p>
+
+</body></html>
+
